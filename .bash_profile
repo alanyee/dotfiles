@@ -48,5 +48,4 @@ complete -W "NSGlobalDomain" defaults;
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
 
 # Remove warning from brew doctor
-homebrew=/usr/local/bin:/usr/local/sbin
-export PATH=$homebrew:$PATH
+export PATH="/usr/local/sbin:$PATH"
