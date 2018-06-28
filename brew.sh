@@ -93,5 +93,9 @@ brew install tree
 brew install vbindiff
 brew install zopfli
 
+# Cask installs
+brew cask install mpv
+brew cask install spectacle
+
 # Remove outdated versions from the cellar.
 brew cleanup
