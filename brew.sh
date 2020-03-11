@@ -85,7 +85,6 @@ brew install ack
 brew install git
 brew install git-lfs
 brew install imagemagick --with-webp
-brew install lua
 brew install lynx
 brew install p7zip
 brew install pigz
@@ -99,7 +98,7 @@ brew install zopfli
 
 # Cask installs
 brew cask install mpv
-brew cask install spectacle
+brew cask install rectangle
 
 # Remove outdated versions from the cellar.
 brew cleanup
